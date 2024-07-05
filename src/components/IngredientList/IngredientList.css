@@ -1,0 +1,31 @@
+.ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ingredient-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.ingredient-item:hover {
+    transform: scale(1.05);
+}
+
+.ingredient-image {
+    width: 100px;
+    height: 100px;
+}
+
+.img-content {
+    max-width: 90%;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}

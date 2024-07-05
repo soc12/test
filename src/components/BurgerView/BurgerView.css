@@ -1,0 +1,35 @@
+.burger-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bun-top, .bun-bottom {
+    width: 300px;
+}
+
+.burger-ingredient {
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    position: relative; 
+}
+
+.burger-ingredient:hover {
+    transform: scale(1.1);
+}
+
+.empty-ingredients {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 40px;
+    text-align: center;
+    z-index: 1;
+}
